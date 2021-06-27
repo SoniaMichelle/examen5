@@ -6,7 +6,7 @@ import { HttpClient } from '@angular/common/http';
 })
 export class ArticulosService {
   /* Y estas funciones hacer referencia a la conexion de la url */
-  url='http://localhost/gestor-producto/'; // disponer url de su servidor que tiene las páginas PHP
+  url='http://localhost/examen5/'; // disponer url de su servidor que tiene las páginas PHP
 
   constructor(private http: HttpClient) { }
 /* El servidor se comunica con php a travez de las funciones creadas */
